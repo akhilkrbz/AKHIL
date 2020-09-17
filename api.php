@@ -106,5 +106,5 @@ Route::post('firestore', function (Request $request) {
 });
 
 
-
+//list vendor products
 Route::get('vendor/listproducts/{id}','VendorController@vendor_products');
